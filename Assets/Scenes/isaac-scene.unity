@@ -192,6 +192,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3816070737714426182, guid: 50904d851af50b44cbeb25c0a4ce1dda, type: 3}
       insertIndex: -1
       addedObject: {fileID: 53152469}
+    - targetCorrespondingSourceObject: {fileID: 3816070737714426182, guid: 50904d851af50b44cbeb25c0a4ce1dda, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 53152470}
   m_SourcePrefab: {fileID: 100100000, guid: 50904d851af50b44cbeb25c0a4ce1dda, type: 3}
 --- !u!1 &53152462 stripped
 GameObject:
@@ -215,6 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad800b7881be64b4b8397bb76ca63c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Cam: {fileID: 253367425}
   CueBallrb: {fileID: 53152463}
   HitForceKPH: 9
   DoCueBallHit: 0
@@ -235,6 +239,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d552c6595aa62064f96337e8405c8dd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &53152470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53152462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939925f80293a1a45b267b813dd7891c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cam: {fileID: 253367425}
+  CueBall: {fileID: 53152465}
+  CameraSpeed: 2
+  distanceToTarget: 1
 --- !u!1 &253367423
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,8 +341,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253367423}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.25109088, y: -0.6610245, z: 0.25109088, w: 0.6610246}
-  m_LocalPosition: {x: 0.5, y: 0.5, z: -0.89}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: -1.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -335,15 +355,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253367423}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e994f9952a0f5747b014d17a5791605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   <Target>k__BackingField: {fileID: 53152465}
-  <XOffset>k__BackingField: 0.5
+  <XOffset>k__BackingField: 0
   <YOffset>k__BackingField: 0.5
-  <ZOffset>k__BackingField: 0
+  <ZOffset>k__BackingField: -0.5
   <LookAtStrength>k__BackingField: 0.55
 --- !u!1 &630825688
 GameObject:
