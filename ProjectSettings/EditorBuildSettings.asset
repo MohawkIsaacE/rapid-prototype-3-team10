@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/isaac-scene.unity
+    guid: 2cb5ec7dfa6942446b6c0f505ce47bac
   m_configObjects: {}

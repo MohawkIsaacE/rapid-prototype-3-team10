@@ -815,6 +815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GolfPanel4
       objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: 0c814e6b748835944b1b1bf1f962d60e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 8c6a4d118b60fa04085d07488db6fb35, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1041,11 +1045,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6d5a9f831bc150a42a4d34fb68c3f1c1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5
+      value: 4.999999
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d5a9f831bc150a42a4d34fb68c3f1c1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d5a9f831bc150a42a4d34fb68c3f1c1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1087,6 +1091,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GolfPanel2
       objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: 6d5a9f831bc150a42a4d34fb68c3f1c1, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 8c6a4d118b60fa04085d07488db6fb35, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1318,6 +1326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GolfPanel3
       objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: 638fce516b97c374ca9d7019298332f7, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 267db6814a2a1e9488a1e382012b0d77, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1488,6 +1500,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: 8113d60ca79928f4cbc481fc68aa1ab8, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: b6407fcbb120279418a48e69471499fe, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
