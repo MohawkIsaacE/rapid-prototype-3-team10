@@ -14,5 +14,10 @@ public class ReloadScene : MonoBehaviour
             var scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 }
