@@ -15,7 +15,9 @@ We are making a prototype that combines Pool and Mini-Golf that uses real-world 
 <a name="objective"></a>
 
 #### Objective Statement
-*Are pool physics challenging and fun to use while attempting to complete a mini-golf course?*
+> *Are pool physics challenging and fun to use while attempting to complete a mini-golf course?*
+
+We want to know if having unusual physics in a game makes it more engaging for the player.
 
 <a name="design"></a>
 
@@ -25,17 +27,17 @@ For the full game, we envision gameplay on a pool table, with different obstacle
 <a name="metric"></a>
 
 ## Metric Research
-Research was completed before implementing anything into the prototype.
+Research was completed before implementing anything into the prototype. The values found were the ones we used in the game.
 We researched:
 * Billiard balls
-    * Size
-    * Mass
-    * Bounciness
-    * Force of hits
+    * Size: 55mm diameter
+    * Weight: 165g
+    * Bounciness: 0.8
+    * Force of hits: 1.9-3.2m/s -> 5.21km/h
 * Frictions
-    * Felt
-    * Sand
-    * Ice
+    * Felt: 0.17 dynamic and 0.28 static friction
+    * Sand: 0.4 friction
+    * Ice: 0 friction
 
 Links can be found in the [References](#references) section.
 
@@ -53,9 +55,10 @@ After the playtest, we decided to add the most common thing asked for, a shadow 
 <a name="references"></a>
 
 ## References
-1. [Billiard Ball size and mass](https://en.wikipedia.org/wiki/Billiard_ball)
+1. [Billiard Ball size and weight](https://en.wikipedia.org/wiki/Billiard_ball)
 1. [Billiard Ball bounciness](https://sky-lights.org/2023/06/12/qa-why-some-balls-bounce-higher-than-others/)
 1. [Billiard ball hit speeds](https://drdavepoolinfo.com/faq/speed/typical/)
 1. [Friction of sand](https://www.finesoftware.eu/help/geo5/en/table-of-ultimate-friction-factors-for-dissimilar-materials-01/)
 1. [Other frictions](https://www.engineersedge.com/coeffients_of_friction.htm#google_vignette)
 1. [Camera rotation around an object](https://github.com/EmmaPrats/Camera-Rotation-Tutorial)
+1. [Some physics script code](https://github.com/MohawkRaphaelT/game10016-physics-engine-workshop)
