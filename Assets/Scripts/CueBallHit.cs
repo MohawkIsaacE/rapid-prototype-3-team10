@@ -9,6 +9,8 @@ public class NewBehaviourScript : MonoBehaviour
     public float HitForceKPH = 1;
     public bool DoCueBallHit;
 
+    public GameObject Shadow;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,9 @@ public class NewBehaviourScript : MonoBehaviour
         {
             DoCueBallHit = true;
         }
+
+        // Make the shadow follow the cue ball on the ground
+        Shadow.transform.position = new Vector3(this.transform.position.x, 0.997f, this.transform.position.z);
     }
 
     private void FixedUpdate()
